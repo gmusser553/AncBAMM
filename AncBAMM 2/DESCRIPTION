@@ -1,0 +1,16 @@
+Package: AncBAMM
+Type: Package
+Title: What the Package Does (Title Case)
+Version: 0.1.0
+Author: Grace Musser
+Maintainer: The package maintainer <yourself@somewhere.net>
+Description: This packages takes the consensus tree from Bayesian phylogenetic analysis output, files generated from BAMM, and traits to create ancestral state reconstructions and rate shift trees. PGLS correlations are also performed.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports: ape, phytools, BAMMtools, readxl, curl, gameofthrones
+RoxygenNote: 6.1.1
+Suggests: knitr, rmarkdown
+VignetteBuilder: knitr
+NeedsCompilation: no
+Packaged: 2019-05-06 04:11:01 UTC; gracemusser
